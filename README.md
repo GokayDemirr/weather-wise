@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+WeatherWise is a modern weather web application built with Next.js and OpenWeather API, designed to go beyond just displaying the temperature.
 
-## Getting Started
+🔍 Key Features
+Dynamic UI based on weather conditions
 
-First, run the development server:
+Animated SVGs and themes adapt to sun, rain, night, or stormy weather
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Background changes according to current conditions and time of day
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Smart Clothing Suggestions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Personalized clothing tips based on temperature, wind chill, and precipitation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Examples: "Take a light jacket!", "Carry an umbrella just in case!"
 
-## Learn More
+Activity Recommendations
 
-To learn more about Next.js, take a look at the following resources:
+Recommends suitable outdoor activities based on real-time weather
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Examples: "Perfect day for a picnic!", "Might be a good evening for an open-air cinema!"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Historical Weather Data & Insights
 
-## Deploy on Vercel
+See what the weather was like on this day last year
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Get average monthly temperatures for your current location
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🛠️ Tech Stack
+Frontend: Next.js, TailwindCSS
+
+API: OpenWeather (Current, Forecast, Historical endpoints)
+
+UI/UX: Weather-responsive animations & themes
