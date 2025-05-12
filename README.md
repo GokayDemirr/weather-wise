@@ -1,34 +1,36 @@
-# weather-wise
-WeatherWise is a modern weather web application built with Next.js and OpenWeather API, designed to go beyond just displaying the temperature.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-🔍 Key Features
-Dynamic UI based on weather conditions
+## Getting Started
 
-Animated SVGs and themes adapt to sun, rain, night, or stormy weather
+First, run the development server:
 
-Background changes according to current conditions and time of day
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Smart Clothing Suggestions
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Personalized clothing tips based on temperature, wind chill, and precipitation
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Examples: "Take a light jacket!", "Carry an umbrella just in case!"
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Activity Recommendations
+## Learn More
 
-Recommends suitable outdoor activities based on real-time weather
+To learn more about Next.js, take a look at the following resources:
 
-Examples: "Perfect day for a picnic!", "Might be a good evening for an open-air cinema!"
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Historical Weather Data & Insights
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-See what the weather was like on this day last year
+## Deploy on Vercel
 
-Get average monthly temperatures for your current location
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-🛠️ Tech Stack
-Frontend: Next.js, TailwindCSS
-
-API: OpenWeather (Current, Forecast, Historical endpoints)
-
-UI/UX: Weather-responsive animations & themes
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
